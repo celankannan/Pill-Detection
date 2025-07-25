@@ -27,6 +27,7 @@ Open the .cpp file in the repository and paste the image path in the highlighted
 
 
 **3. Compile and execute c++ code**
+
 Compile your source file using g++ with OpenCV flags obtained through pkg-config. For OpenCV 4.x, the command looks like this:
 
 **g++ void_level_2_pill_detection.cpp -o pill `pkg-config --cflags --libs opencv4`**
@@ -34,4 +35,3 @@ Compile your source file using g++ with OpenCV flags obtained through pkg-config
 Run the executable as follows:
 
 **./pill**
-**
