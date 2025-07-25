@@ -19,4 +19,13 @@ that do not reflect light like smooth glossy cylindrical pills. The algorithm is
 **1. Download**
 
 Clone this repository using:
-git clone <[repository_url](https://github.com/celankannan/Pill-Detection.git)>
+**git clone https://github.com/celankannan/Pill-Detection.git**
+
+
+**2. Compile and execute c++ code**
+Compile your source file using g++ with OpenCV flags obtained through pkg-config. For OpenCV 4.x, the command looks like this:
+**g++ void_level_2_pill_detection.cpp -o pill `pkg-config --cflags --libs opencv4`**
+
+Run the executable as follows:
+**./pill**
+**
