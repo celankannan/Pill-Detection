@@ -8,4 +8,13 @@ that do not reflect light like smooth glossy cylindrical pills. The algorithm is
 2. Segment the green background in the image using HSV based color segmentation.
 3. Implement watershed opencv algorithm to extract the contours/mask of the pills.
 4. Use connected component analysis algorithm to convert the count the number of pills.
-5. Outputs the image with the pill contours and the number of pills text overlaid.
+5. Outputs the image with the pill contours and the number of pills overlaid.
+
+<img width="543" height="430" alt="Screenshot from 2025-07-24 23-41-37" src="https://github.com/user-attachments/assets/f63d9fe7-2a1d-4dcd-837c-c7577dc674af" />
+
+## Implementation
+
+**1. Download**
+
+Clone this repository using:
+git clone <[repository_url](https://github.com/celankannan/Pill-Detection.git)>
